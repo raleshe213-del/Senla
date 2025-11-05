@@ -1,0 +1,46 @@
+# Скомпилированные классы
+*.class
+
+# Файлы пакетов
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Логи
+*.log
+
+# Файлы сборки
+target/
+build/
+out/
+bin/
+
+# IDE файлы
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+
+# VS Code
+.vscode/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы окружения
+.env
+*.properties
+
+# Документация
+javadoc/
