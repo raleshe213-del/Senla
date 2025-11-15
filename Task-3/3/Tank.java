@@ -1,16 +1,9 @@
-public class Tank implements BuildChassis, BuildTracks, BuildTurret {
+public class Tank implements AssemblyLine {
     @Override
-    public void build_turret(){
-        System.out.println("The turret is built");
-    }
-
-    @Override
-    public void build_tracks(){
-        System.out.println("The tracks is built");
-    }
-
-    @Override
-    public void bulid_chassis(){
-        System.out.println("The chassis is built");
+    public void assemble_tank(Chassis b_ch, Turret b_tu, Track b_tr) {
+        b_ch.bulid_chassis();
+        b_tu.build_turret();
+        b_tr.build_tracks();
+        System.out.println("All three parts are assembled");
     }
 }

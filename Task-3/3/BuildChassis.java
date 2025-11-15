@@ -1,3 +1,3 @@
 public interface BuildChassis {
-    public  void bulid_chassis();
+    public void bulid_chassis();
 }
