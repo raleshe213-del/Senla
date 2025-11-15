@@ -1,6 +1,6 @@
 public class Administrate {
 
-    private Administrate(){}
+    public Administrate(){}
 
     public void get_in_room(Person person, Room room){
         room.set_person(person);
@@ -12,9 +12,9 @@ public class Administrate {
         System.out.println("The romm is free by the nunber " + room.get_number());
     }
 
-    public void change_state(Room room, String new_state){
+    public void change_state(Room room, ROOM_STATUS new_state){
         room.set_state(new_state);
-        System.out.println("The state of room has changed");
+        System.out.println("The state of room has changed to " + room.get_state());
     }
 
     public void change_price_room(Room room, int new_price){

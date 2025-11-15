@@ -5,6 +5,7 @@ public class Person {
     public Person(String name, int age){
         this.name = name;
         this.age = age;
+        System.out.println("The person with the name " + name + " and age " + age + " created");
     }
 
     public Person(){

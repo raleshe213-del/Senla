@@ -1,0 +1,3 @@
+public enum SERVICES {
+    CLEANING, COOKING, BREAKFASTING
+}
