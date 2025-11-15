@@ -1,18 +1,18 @@
-public class Rose{
+public class Rose extends Flower{
     private static int count = 0;
     private static final int price = 150;
 
-    private Rose(){}
+    Rose(){}
 
-    public static void set_count(int count){
+    public void setCount(int count){
         Rose.count = count;
     }
 
-    public static int get_count(){
+    public int getCount(){
         return Rose.count;
     }
 
-    public static int price(){
+    public int price(){
         return Rose.count * Rose.price;
     }
 }

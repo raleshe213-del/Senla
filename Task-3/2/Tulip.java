@@ -1,18 +1,18 @@
-public class Tulip{
+public class Tulip extends Flower{
     private static int count = 0;
     private static final int price = 100;
 
-    private Tulip(){}
+    Tulip(){}
 
-    public static void set_count(int count){
+    public void setCount(int count){
         Tulip.count = count;
     }
 
-    public static int get_count(){
+    public int getCount(){
         return Tulip.count;
     }
 
-    public static int price(){
+    public int price(){
         return Tulip.count * Tulip.price;
     }
 }

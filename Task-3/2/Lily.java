@@ -1,18 +1,18 @@
-public class Lily{
+public class Lily extends Flower{
     private static int count = 0;
     private static final int price = 250;
 
-    private Lily(){}
+    Lily(){}
 
-    public static void set_count(int count){
+    public  void setCount(int count){
         Lily.count = count;
     }
 
-    public static int get_count(){
+    public int getCount(){
         return Lily.count;
     }
 
-    public static int price(){
+    public int price(){
         return Lily.count * Lily.price;
     }
 }
